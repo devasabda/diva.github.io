@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>MEMORY GAME</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id ="cover" class="container">
+	<div class="main">
+		
+		<div class="left">
+		</div> <!--/ .header -->
+       		<div class="middle">
+			 <a href="memori_level1.html"><img src="images/pic01.jpg" class="img-responsive" style="width: 100%" alt="image" /></a>		
+			<button class="button" onclick="about()">ABOUT</button>
+			<button class="button" onclick="download()">DOWNLOAD</button>
+		</div> <!--/ .middle -->
+
+		<div class="right">
+		
+		</div> <!--/ .right -->
+
+	</div> 
+</div>
+
+
+	<!--/ ABOUT -->
+
+<div id="about" class="container">
+	<div class="row conten">
+		<div class="stat">
+			<div class="gameEnd">
+				<div class="middle">
+					<h3> ABOUT THIS GAME</h3>
+					<h6>
+						Game ini adalah sebuah game yang mempunyai tujuan untuk membantu game yang memainkan untuk mengasah daya ingat user.
+						Aturan dalam permainan ini adalah mengecek dalam konten bentuk huruf apabila kedua konten terbuka dan terbuka semua maka akan lanjut ke dalam level selanjutnya.
+					</h6>
+					<h5>
+						<br>"DOSEN PEMBIMBING:" 
+						<br>"RIZKY PARLIKA, S.KOM, M.KOM" 
+						<br>NAMA KELOMPOK:
+						<br>1.	FAJAR FIRMAN HIDAYAT (1434010004)
+						<br>2.	ACHMAD DIVA B.S. (1434010015)
+						<br>3.	M. HARDYANZA R. (1434010031)
+						<br>4.	NOAFRIDA PURWANINGSIH (1434010134)
+						<br>5.	M. NUR KHOLIS (1434010136)
+						<br>6.	RIDHO AKBAR (1434010166)
+						<br>7.	ILHAM BAHSYIRUDIN ICHSAN (1434010168)
+					</h5>
+					<td><a href="index.html">BACK</a></td>
+				</div>
+				<div class="left">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<!-- DOWNLOAD -->
+
+<div id="download" class="container">
+	<div class="row conten">
+		<div class="stat">
+			<div class="gameEnd">
+
+				<div class="middle">
+					<h3> ABOUT THIS GAME</h3>
+					<h6>
+						DESKTOP</h6>
+						<a href="https://doc-0s-1s-docs.googleusercontent.com/docs/securesc/1ol80hpo30r0ijill8qrk1m9kp700st4/pqc0p3en70e242cim9mmajaiuddmnap1/1495576800000/02072885658334348683/02072885658334348683/0B4y-h57qdG4tOWZkcl9xN3dOdUk?e=download&nonce=t9no6b03khv10&user=02072885658334348683&hash=9gklihoviabcbjdj43e3b19fi2vpgem7">SETUP.EXE</a>
+						<h6>
+						MOBILE</h6>
+						<a href="">comming soon</a>
+					<br><td><a href="index.html">BACK</a></td>
+				</div>
+
+				<div class="left">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<script type="text/javascript">
+
+    function about() {
+      document.getElementById("cover").style.display = "none";
+      document.getElementById("about").style.display = "block";
+    }
+
+     function download() {
+      document.getElementById("cover").style.display = "none";
+      document.getElementById("download").style.display = "block";
+      document.getElementById("about").style.display = "none";
+    }
+  </script>
+</body>
+</html>
